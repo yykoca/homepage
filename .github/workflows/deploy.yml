@@ -28,12 +28,12 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Deploy build folder to server
-        uses: appleboy/scp-action@v0.1.7
+      - name: Deploy to server with rsync
+        uses: burnett01/rsync-deployments@7.0.1
         with:
-          host: ${{ secrets.DO_HOST }}
-          username: ${{ secrets.DO_USER }}
-          key: ${{ secrets.DO_SSH_KEY }}
-          source: "build/*"
-          target: "/var/www/homepage"
-          strip_components: 1
+          switches: -avzr --delete
+          path: build/
+          remote_path: /var/www/homepage/
+          remote_host: ${{ secrets.DO_HOST }}
+          remote_user: ${{ secrets.DO_USER }}
+          remote_key: ${{ secrets.DO_SSH_KEY }}
