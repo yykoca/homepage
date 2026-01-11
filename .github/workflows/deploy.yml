@@ -35,5 +35,5 @@ jobs:
           username: ${{ secrets.DO_USER }}
           key: ${{ secrets.DO_SSH_KEY }}
           source: "build/*"
-          target: "/var/www/homepage/html"
+          target: "/var/www/homepage"
           strip_components: 1

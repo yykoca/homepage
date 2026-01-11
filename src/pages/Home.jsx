@@ -6,7 +6,7 @@ function Home() {
     const { t } = useTranslation();
     
     return (
-        <Container id="home" className="d-flex flex-column align-items-center justify-content-center  py-5">
+        <Container id="home" className="d-flex flex-column align-items-center justify-content-center py-5">
             <Row>
                 <Col>
                     <Image className="downEffect" src="./images/yykoca.jpg" roundedCircle width="240" height="240" />
