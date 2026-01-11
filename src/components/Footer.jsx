@@ -14,7 +14,7 @@ function Footer() {
                     <Nav.Link className="px-3" href="https://github.com/yykoca"><Github /></Nav.Link>
                     <Nav.Link className="px-3" href="https://www.linkedin.com/in/yykoca"><Linkedin /></Nav.Link>
                     <Nav.Link className="px-3" href="http://x.com/yhysrkc"><TwitterX /></Nav.Link>
-                    <Nav.Link className="px-3" href="https://instagram.com/yhysrkc"><Instagram /></Nav.Link>
+                    <Nav.Link className="px-3" href="https://instagram.com/yhysrkc_"><Instagram /></Nav.Link>
                     <Nav.Link className="px-3" href="mailto:yykoca.08@gmail.com"><Envelope /></Nav.Link>
                 </Nav>
             </Container>
