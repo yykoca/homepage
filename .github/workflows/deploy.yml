@@ -37,3 +37,4 @@ jobs:
           remote_host: ${{ secrets.DO_HOST }}
           remote_user: ${{ secrets.DO_USER }}
           remote_key: ${{ secrets.DO_SSH_KEY }}
+          
