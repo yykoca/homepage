@@ -15,7 +15,7 @@ function Home() {
             <Row className='p-2 mt-5 text-center'>
                 <Col xs className="upEffect">
                     <span className='fs-4'>{t('home.greeting')}</span>
-                    <h1 className="mb-0 display-3">Yahya Yasir Koca.</h1>
+                    <h1 className="mb-0 display-3">Yahya Yasir Koca</h1>
                     <h2>{t('home.title')}</h2>
                     <p className='fs-5'>
                         {t('home.description')}
