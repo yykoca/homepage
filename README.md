@@ -5,21 +5,21 @@
 
 # yykoca.com
 
-Kişisel web sitesi.
+Personal website.
 
 <img src="public/images/homepage.png" alt="logo" />
 
 ---
 
-Bu proje, yazılım geçmişimi ve projelerimi sergilemek için hazırlanmıştır. Ziyaret etmek için:
+This project is designed to showcase my software background and projects. Visit at:
 
 - [yykoca.com](https://yykoca.com)
-- [GitHub Pages versiyonu](https://yykoca.github.io)
+- [GitHub Pages version](https://yykoca.github.io)
 
 ---
 
-Site modern React mimarisi, çoklu dil desteği ve otomatik deployment ile hazırlanmıştır.
+The site is built with modern React architecture, multi-language support, and automated deployment.
 
 ---
 
-İletişim ve detaylar için: [yykoca.com](https://yykoca.com)
+For contact and details: [yykoca.com](https://yykoca.com)
